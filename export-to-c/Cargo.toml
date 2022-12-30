@@ -1,0 +1,13 @@
+[package]
+name = "export-to-c"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+name = "primes"
+crate-type = ["staticlib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+cbindgen = "0.24.3"

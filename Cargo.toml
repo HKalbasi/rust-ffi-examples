@@ -1,0 +1,2 @@
+[workspace]
+members = ["export-to-c", "import-from-c", "export-to-python"]

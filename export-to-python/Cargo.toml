@@ -1,0 +1,16 @@
+[package]
+name = "export-to-python"
+version = "0.0.0"
+edition = "2021"
+
+[lib]
+name = "arrays"
+crate-type = ["cdylib"]
+
+[dependencies]
+numpy = "0.13"
+ndarray = "0.15"
+
+[dependencies.pyo3]
+version = "0.13"
+features = ["extension-module"]
